@@ -1,0 +1,64 @@
+.app-container {
+  max-width: 700px; /* increased from 500px */
+  margin: 60px auto; /* centered + more spacing */
+  background: #eef2ff;
+  padding: 30px; /* more inner space */
+  border-radius: 14px;
+  box-shadow: 0 0 12px rgba(79, 70, 229, 0.2);
+}
+
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #3730a3; /* deep indigo */
+}
+
+.expense-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.expense-form input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #c7d2fe;
+  border-radius: 6px;
+  background: #ffffff;
+}
+
+.expense-form button {
+  padding: 8px 12px;
+  cursor: pointer;
+  background: #6366f1;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: 0.2s;
+}
+
+.expense-form button:hover {
+  background: #4f46e5;
+}
+
+.expense-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.expense-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  border-left: 4px solid #6366f1;
+}
+
+.no-expense {
+  text-align: center;
+  color: #6b7280;
+}
